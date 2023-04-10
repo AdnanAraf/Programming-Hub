@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ShowFeatureJob from "../ShowFeature/ShowFeatureJob";
+import ViewDetails from "../ViewDetails/ViewDetails";
 
 const Featurejob = () => {
   const [feature, setfeature] = useState([]);
@@ -26,7 +27,8 @@ const Featurejob = () => {
       </div>
       <div className="grid grid-cols-2 gap-8 mx-[100px] mt-[62px]">
         {feature.slice(0, showAll ? 4 : 6).map((item) => (
-          <ShowFeatureJob key={item.id} item={item}></ShowFeatureJob>
+          <ShowFeatureJob key={item.id} item={item}
+          ></ShowFeatureJob>
         ))}
       </div>
       {showAll ? (
