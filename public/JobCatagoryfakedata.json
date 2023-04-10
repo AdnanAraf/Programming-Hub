@@ -1,20 +1,24 @@
 [
   {
+    "id": 1,
     "img": "https://img.freepik.com/premium-vector/financial-management-vector-illustration-consult-accountant-businessman-calculating-personal-corporate-budget-managing-financial-income_327176-258.jpg?w=1060",
     "title": "Account & Finance",
     "subtitle": "300 Jobs Available"
   },
   {
+    "id": 2,
     "img": "https://img.freepik.com/free-vector/designer-tools-idea-concept_98292-4652.jpg?w=740&t=st=1681074969~exp=1681075569~hmac=02d29cb5b12e5799435cd22aa45e2db2e642d22881c7739cd6902b1caa0fce86",
     "title": "Creative Design",
     "subtitle": "100+ Jobs Available"
   },
   {
+    "id": 3,
     "img": "https://img.freepik.com/free-vector/marketer-concept-advertising-promotion-marketing-strategy-communucation-with-customer-isolated-flat-vector-illustration_613284-2747.jpg?w=740&t=st=1681075180~exp=1681075780~hmac=b4360a59b82229046d10afaaba6433f089d413a1fe6bab6d98f4815eb49a5d4a",
     "title": "Marketing & Sales",
     "subtitle": "150 Jobs Available"
   },
   {
+    "id": 4,
     "img": "https://img.freepik.com/free-vector/set-different-contractors-cartoon-characters_1308-89520.jpg?w=900&t=st=1681075232~exp=1681075832~hmac=001071d84a2d6dfe6d05ac8dc34198417e12ee336f77150cc113b23fc7c9a895",
     "title": "Engineering Job",
     "subtitle": "224 Jobs Available"

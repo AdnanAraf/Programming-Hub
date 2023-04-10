@@ -1,3 +1,4 @@
+import { key } from "localforage";
 import React, { useEffect, useState } from "react";
 
 const Jobcatagory = () => {
@@ -23,7 +24,7 @@ const Jobcatagory = () => {
         </div>
       </div>
       <div>
-        <div className="grid grid-cols-4 my-[32px] mx-[100px] cursor-pointer">
+        <div className="grid grid-cols-4 my-[32px] mx-[100px] cursor-pointer gap-[25px]">
           {catagory.map((item) => (
             <div className="h-[220px] w-[243px] bg-purple-50 rounded-lg">
               <img

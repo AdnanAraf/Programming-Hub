@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "img": "https://img.freepik.com/premium-photo/browser-logo-3d-render_68185-576.jpg?w=1380",
+    "title": "Technical Database Engineer",
+    "company": "Google LLC",
+    "jobtype1": "Full Time",
+    "jobtype2": "Full Time",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 100K - 150K"
+  },
+  {
+    "id": 2,
+    "img": "https://images.unsplash.com/photo-1633419461186-7d40a38105ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    "title": "Senior Product Designer",
+    "company": "MicroSoft",
+    "jobtype1": "Remote",
+    "jobtype2": "Full Time",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 90K - 100K"
+  },
+  {
+    "id": 3,
+    "img": "https://images.unsplash.com/photo-1601158935942-52255782d322?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80",
+    "title": "Software Engineer",
+    "company": "Tesla",
+    "jobtype1": "Onsite",
+    "jobtype2": "Full Time",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 100K - 150K"
+  },
+  {
+    "id": 4,
+    "img": "https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "title": "Junior Engineer",
+    "company": "Linkedin",
+    "jobtype1": "Remote",
+    "jobtype2": "Full Time",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 10K - 20K"
+  },
+  {
+    "id": 5,
+    "img": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "title": "Producct Engineer",
+    "company": "NetFlix",
+    "jobtype1": "Remote",
+    "jobtype2": "Full Time",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 100K - 110K"
+  },
+  {
+    "id": 6,
+    "img": "https://images.unsplash.com/photo-1503852460961-aa7ffdd3d64d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "title": "Senior Software Engineer",
+    "company": "Apple",
+    "jobtype1": "Onsite",
+    "jobtype2": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 120K - 150K"
+  }
+]
