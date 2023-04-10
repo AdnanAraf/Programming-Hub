@@ -35,8 +35,8 @@ const Featurejob = () => {
             onClick={() => setShowAll(!showAll)}
             className="mx-[650px] h-[50px] w-[150px] bg-purple-500 my-[50px] rounded-lg"
           >
-            <button className="px-[39px] py-[12px] text-white font-bold">
-              See More
+            <button className="px-[31px] py-[12px] text-white font-semibold">
+              See All Jobs
             </button>
           </div>
         </>
