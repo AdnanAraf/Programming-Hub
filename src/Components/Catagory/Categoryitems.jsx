@@ -1,7 +1,6 @@
-import { key } from "localforage";
 import React, { useEffect, useState } from "react";
 
-const Jobcatagory = () => {
+const Categoryitems = () => {
   const [catagory, setcatagory] = useState([]);
 
   useEffect(() => {
@@ -43,4 +42,4 @@ const Jobcatagory = () => {
   );
 };
 
-export default Jobcatagory;
+export default Categoryitems;

@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ShowFeatureJob = ({ item }) => {
-  console.log(item);
+const DataFeature = ({ item }) => {
+  //   console.log(item);
+  //   return <div></div>;
   const { img, title, company, salary, location, jobtype1, jobtype2, id } =
     item;
   return (
@@ -77,4 +78,4 @@ const ShowFeatureJob = ({ item }) => {
   );
 };
 
-export default ShowFeatureJob;
+export default DataFeature;

@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-import ShowFeatureJob from "../ShowFeature/ShowFeatureJob";
-import ViewDetails from "../ViewDetails/ViewDetails";
+import DataFeature from "../ShowData/DataFeature";
 
-const Featurejob = () => {
+const FeaturedData = () => {
   const [feature, setfeature] = useState([]);
   const [showAll, setShowAll] = useState(true);
 
   useEffect(() => {
-    fetch("FeaturedData.json")
+    fetch("Showfeature.json")
       .then((res) => res.json())
       .then((data) => setfeature(data));
   }, []);
@@ -27,8 +26,7 @@ const Featurejob = () => {
       </div>
       <div className="grid grid-cols-2 gap-8 mx-[100px] mt-[62px]">
         {feature.slice(0, showAll ? 4 : 6).map((item) => (
-          <ShowFeatureJob key={item.id} item={item}
-          ></ShowFeatureJob>
+          <DataFeature key={item.id} item={item}></DataFeature>
         ))}
       </div>
       {showAll ? (
@@ -58,4 +56,4 @@ const Featurejob = () => {
   );
 };
 
-export default Featurejob;
+export default FeaturedData;

@@ -1,21 +1,37 @@
-import "./index.css";
-import ViewDetails from "./Components/ViewDetails/ViewDetails";
+import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import App from "./App";
+import "./index.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Components/Home/Home";
+import Statistics from "./Components/Statistics/Statistics";
+import Back from "./Components/Back/Back";
+import Viewdetails from "./Components/ViewDetails/Viewdetails";
 
-export default function App() {
-  console.log("waiting...");
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route index element={<Home />} />
-        <Route path="item/:itemid" element={<ViewDetails />} />
-      </Routes>
-    </BrowserRouter>
-  );
-}
-const root = ReactDOM.createRoot(document.getElementById("root"));
-console.log(root);
-root.render(<App />);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    children: [
+      {
+        path: "home",
+        element: <Back />,
+      },
+      {
+        path: "statistics",
+        element: <Statistics></Statistics>,
+      },
+      {
+        path: "item/:itemid",
+        element: <Viewdetails />,
+        loader: ({ params }) => fetch(`/Showfeature.json`),
+      },
+    ],
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
