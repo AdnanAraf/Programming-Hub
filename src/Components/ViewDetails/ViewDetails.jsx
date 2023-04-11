@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../Utilities/fakedb";
 
 const Viewdetails = () => {
   const [identify, setidentify] = useState({});
+
+  const Loader = useLoaderData();
+  // console.log(Loader);
 
   const { itemid } = useParams();
 
@@ -10,12 +14,16 @@ const Viewdetails = () => {
     fetch("/Showfeature.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         const founddata = data.find((job) => job.id == itemid);
-        console.log(founddata);
+        // console.log(founddata);
         setidentify(founddata);
       });
   }, []);
+
+  const HandleaddtoClick = (job) => {
+    addToDb(job.id);
+  };
 
   return (
     <div>
@@ -179,7 +187,12 @@ const Viewdetails = () => {
               </div>
             </div>
             <div className="w-[364px] h-[65px] bg-purple-700 rounded-lg px-[131px] py-[19px] mt-[10px]">
-              <button className="font-semibold text-white">Apply Now</button>
+              <button
+                onClick={() => HandleaddtoClick(identify)}
+                className="font-semibold text-white"
+              >
+                Apply Now
+              </button>
             </div>
           </div>
         </div>

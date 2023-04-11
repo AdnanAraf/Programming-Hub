@@ -20,9 +20,9 @@ const Navbar = () => {
             >
               Statistics
             </Link>
-            <li className="list-none p-[20px]  cursor-pointer" href="#">
+            <Link className="list-none p-[20px]  cursor-pointer" to="/applied">
               Applied Jobs
-            </li>
+            </Link>
             <li className="list-none p-[20px]  cursor-pointer" href="#">
               Blog
             </li>

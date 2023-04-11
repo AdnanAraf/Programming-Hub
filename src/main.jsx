@@ -8,6 +8,8 @@ import Statistics from "./Components/Statistics/Statistics";
 import Back from "./Components/Back/Back";
 import Viewdetails from "./Components/ViewDetails/Viewdetails";
 import Profile from "./Components/Profile/Profile";
+import AppliedJob from "./Components/Appilied/AppliedJob";
+import { productsAndCartData } from "./Cart&Product/CartandProduct";
 
 const router = createBrowserRouter([
   {
@@ -15,12 +17,17 @@ const router = createBrowserRouter([
     element: <Home />,
     children: [
       {
-        path: "home",
+        path: "/",
         element: <Back />,
       },
       {
         path: "/",
         element: <Profile />,
+      },
+      {
+        path: "applied",
+        element: <AppliedJob />,
+        loader: productsAndCartData,
       },
       {
         path: "statistics",
