@@ -7,6 +7,7 @@ import Home from "./Components/Home/Home";
 import Statistics from "./Components/Statistics/Statistics";
 import Back from "./Components/Back/Back";
 import Viewdetails from "./Components/ViewDetails/Viewdetails";
+import Profile from "./Components/Profile/Profile";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "home",
         element: <Back />,
+      },
+      {
+        path: "/",
+        element: <Profile />,
       },
       {
         path: "statistics",

@@ -1,4 +1,6 @@
 import React from "react";
+import Categoryitems from "../Catagory/Categoryitems";
+import FeaturedData from "../Featured/FeaturedData";
 
 const Profile = () => {
   return (
@@ -26,6 +28,8 @@ const Profile = () => {
           </div>
         </div>
       </div>
+      {/* <Categoryitems></Categoryitems>
+      <FeaturedData /> */}
     </div>
   );
 };

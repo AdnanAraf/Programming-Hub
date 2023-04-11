@@ -6,8 +6,12 @@
     "company": "Google LLC",
     "jobtype1": "Full Time",
     "jobtype2": "Full Time",
+    "Phone": "01750000000",
+    "email": "Email : info@gmail.com",
     "location": "Dhaka, Bangladesh",
-    "salary": "Salary : 100K - 150K"
+    "address": "Banani 32, Sukrabad Dhaka, Bangladesh",
+
+    "salary": " 100K - 150K"
   },
   {
     "id": 2,
@@ -16,8 +20,11 @@
     "company": "MicroSoft",
     "jobtype1": "Remote",
     "jobtype2": "Full Time",
+    "Phone": "01750568576",
+    "email": "info@gmail.com",
     "location": "Dhaka, Bangladesh",
-    "salary": "Salary : 90K - 100K"
+    "address": "Mirpur 32, Sukrabad Dhaka, Bangladesh",
+    "salary": " 90K - 100K"
   },
   {
     "id": 3,
@@ -25,9 +32,12 @@
     "title": "Software Engineer",
     "company": "Tesla",
     "jobtype1": "Onsite",
+    "Phone": "017500093384",
+    "email": " info@gmail.com",
     "jobtype2": "Full Time",
     "location": "Dhaka, Bangladesh",
-    "salary": "Salary : 100K - 150K"
+    "address": "Gulshan 32, Sukrabad Dhaka, Bangladesh",
+    "salary": " 100K - 150K"
   },
   {
     "id": 4,
@@ -36,8 +46,11 @@
     "company": "Linkedin",
     "jobtype1": "Remote",
     "jobtype2": "Full Time",
+    "Phone": "0168343874939894",
+    "email": "info@gmail.com",
     "location": "Dhaka, Bangladesh",
-    "salary": "Salary : 10K - 20K"
+    "address": " Uttara 32, Sukrabad Dhaka, Bangladesh",
+    "salary": " 10K - 20K"
   },
   {
     "id": 5,
@@ -46,8 +59,12 @@
     "company": "NetFlix",
     "jobtype1": "Remote",
     "jobtype2": "Full Time",
+    "Phone": "01850000000",
+    "email": "info@gmail.com",
+    "description": "Collaborating with cross-functional teams: UI/UX designers oftenwork closely with other teams, including product management,engineering, and marketing, to ensure that the user interface isaligned with business and technical requirements. You will need tobe able to effectively communicate your design ideas and gatherfeedback from other team members.",
     "location": "Dhaka, Bangladesh",
-    "salary": "Salary : 100K - 110K"
+    "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+    "salary": " 100K - 110K"
   },
   {
     "id": 6,
@@ -56,7 +73,10 @@
     "company": "Apple",
     "jobtype1": "Onsite",
     "jobtype2": "Remote",
+    "Phone": "017500001200",
+    "email": "info@gmail.com",
     "location": "Dhaka, Bangladesh",
-    "salary": "Salary : 120K - 150K"
+    "address": "Mirpur 42, Sukrabad Dhaka, Bangladesh",
+    "salary": " 120K - 150K"
   }
 ]
