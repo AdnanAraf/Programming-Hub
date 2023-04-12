@@ -9,7 +9,7 @@ const DataFeature = ({ item }) => {
   return (
     <div>
       <div></div>
-      <div className="h-[472px] w-[600px] border-2 rounded-lg">
+      <div className="lg:h-[472px] lg:w-[600px] h-[495px] border-2 rounded-lg">
         <img
           className="h-[130px] w-[260px] m-[40px] rounded-lg"
           src={img}

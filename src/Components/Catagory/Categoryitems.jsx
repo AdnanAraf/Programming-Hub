@@ -12,7 +12,7 @@ const Categoryitems = () => {
   return (
     <div>
       <div className="text-center ">
-        <h1 className="font-semibold mt-[130px] text-[48px]">
+        <h1 className="font-semibold mt-[130px] lg:text-[48px] text-[24px]">
           Job Category List
         </h1>
         <div>
@@ -23,7 +23,7 @@ const Categoryitems = () => {
         </div>
       </div>
       <div>
-        <div className="grid grid-cols-4 my-[32px] mx-[100px] cursor-pointer gap-[25px]">
+        <div className="grid lg:grid-cols-4 grid-cols-1 my-[32px] lg:mx-[100px] mx-[60px] cursor-pointer gap-[25px]">
           {catagory.map((item) => (
             <div className="h-[220px] w-[243px] bg-purple-50 rounded-lg">
               <img

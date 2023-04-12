@@ -16,7 +16,7 @@ const FeaturedData = () => {
   return (
     <div>
       <div>
-        <h1 className="text-center font-bold text-[48px] mt-[100px]">
+        <h1 className="text-center font-bold lg:text-[48px] text-[24px] mt-[100px]">
           Featured Jobs
         </h1>
         <p className="text-center font-semibold text-gray-400 mt-[16px]">
@@ -24,7 +24,7 @@ const FeaturedData = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-8 mx-[100px] mt-[62px]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 lg:mx-[100px]  mt-[62px]">
         {feature.slice(0, showAll ? 4 : 6).map((item) => (
           <DataFeature key={item.id} item={item}></DataFeature>
         ))}
@@ -33,7 +33,7 @@ const FeaturedData = () => {
         <>
           <div
             onClick={() => setShowAll(!showAll)}
-            className="mx-[650px] h-[50px] w-[150px] bg-purple-500 my-[50px] rounded-lg"
+            className="lg:mx-[650px] mx-[100px] h-[50px] w-[150px] bg-purple-500 my-[50px] rounded-lg"
           >
             <button className="px-[31px] py-[12px] text-white font-semibold">
               See All Jobs
@@ -44,7 +44,7 @@ const FeaturedData = () => {
         <>
           <div
             onClick={() => setShowAll(!showAll)}
-            className="mx-[650px] h-[50px] w-[150px] bg-purple-500 my-[50px] rounded-lg"
+            className="lg:mx-[650px]   mx-[100px] h-[50px] w-[150px] bg-purple-500 my-[50px] rounded-lg"
           >
             <button className="px-[39px] py-[12px] text-white font-bold">
               See Less

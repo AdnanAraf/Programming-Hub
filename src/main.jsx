@@ -9,7 +9,7 @@ import Back from "./Components/Back/Back";
 import Viewdetails from "./Components/ViewDetails/Viewdetails";
 import Profile from "./Components/Profile/Profile";
 import AppliedJob from "./Components/Appilied/AppliedJob";
-import { productsAndCartData } from "./Cart&Product/CartandProduct";
+import { productsAndCartData } from "./Components/Cart&Product/CartandProduct";
 
 const router = createBrowserRouter([
   {

@@ -8,29 +8,31 @@ const AppliedJobitem = ({ products }) => {
     <div>
       <div></div>
       <div>
-        <div className="h-[300px] w-[1200px] border-2 rounded-lg flex m-[20px] ">
+        <div className="lg:h-[300px] h-[650px] lg:w-[1200px] border-2 rounded-lg lg:flex m-[20px] ">
           <div>
             <img
               className="h-[230px] w-[260px] m-[40px] rounded-lg"
               src={img}
             ></img>
           </div>
-          <div className="flex ">
+          <div className="lg:flex ">
             <div className="my-[40px]">
               <h1 className="mx-[10px] p-[5px] font-bold text-gray-500 text-[24px]">
                 {title}
               </h1>
-              <h1 className="mx-[40px] p-[5px] text-gray-500">{company}</h1>
+              <h1 className="lg:mx-[40px] mx-[10px] p-[5px] text-gray-500">
+                {company}
+              </h1>
               <div className="flex gap-[25px] mx-[40px] p-[10px] ">
-                <h1 className="border-2 h-[40px] w-[109px] border-purple-200 px-[19px] py-[7px] font-semibold text-purple-600">
+                <h1 className="border-2 h-[40px] w-[109px] border-purple-200 lg:px-[19px] px-[13px] lg:py-[7px] py-[7px] font-semibold text-purple-600">
                   {jobtype1}
                 </h1>
-                <h1 className="border-2 h-[40px] w-[109px] border-purple-200 text-purple-600 font-semibold px-[19px] py-[7px]">
+                <h1 className="border-2 h-[40px] w-[109px] border-purple-200 text-purple-600 font-semibold lg:px-[19px] px-[13px] lg:py-[7px] py-[7px]">
                   {jobtype2}
                 </h1>
               </div>
-              <div className="flex mt-[10px]">
-                <div className="flex mx-[40px] ">
+              <div className="flex mt-[10px] ">
+                <div className="flex lg:mx-[40px] mx-[20px] ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -71,7 +73,7 @@ const AppliedJobitem = ({ products }) => {
               </div>
             </div>
 
-            <div className="mt-[124px] ml-[300px] h-[50px] w-[150px] bg-purple-500 rounded-lg ">
+            <div className="lg:mt-[124px] lg:ml-[300px] ml-[80px] h-[50px] w-[150px] bg-purple-500 rounded-lg ">
               <Link to={`/item/${id}`}>
                 <button className="px-[24px] py-[12px] font-semibold text-white">
                   View Details

@@ -10,7 +10,6 @@ const Back = () => {
       <Profile />
       <Categoryitems />
       <FeaturedData />
-      {/* <Footer /> */}
     </div>
   );
 };

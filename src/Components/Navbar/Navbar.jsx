@@ -4,31 +4,35 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="bg-purple-50 h-[]">
-        <div className=" flex justify-between  ">
-          <h1 className="mx-[100px] my-[60px] text-[32px] font-bold">
+      <div className="bg-purple-50 lg:w-full w-full ">
+        <div className=" flex lg:justify-between  ">
+          <h1 className="lg:mx-[100px] lg:my-[60px] lg:text-[32px] my-[10px] mx-[50px] font-bold">
             Programming Hub
           </h1>
 
-          <div className="flex m-[50px]">
-            <Link className="list-none p-[20px]  cursor-pointer" to="/home">
+          <div className="lg:flex lg:m-[50px]  my-[60px] lg:ml-[0px] ml-[-80px]  ">
+            {/* <Link className="list-none p-[20px]  cursor-pointer" to="/home">
               Home
-            </Link>
+            </Link> */}
             <Link
-              className="list-none p-[20px]  cursor-pointer"
+              className="list-none lg:p-[20px]  cursor-pointer"
               to="/statistics"
             >
               Statistics
             </Link>
-            <Link className="list-none p-[20px]  cursor-pointer" to="/applied">
+            <br></br>
+            <Link
+              className="list-none lg:p-[20px]  cursor-pointer"
+              to="/applied"
+            >
               Applied Jobs
             </Link>
-            <li className="list-none p-[20px]  cursor-pointer" href="#">
+            <li className="list-none lg:p-[20px]  cursor-pointer" href="#">
               Blog
             </li>
           </div>
-          <div className="m-[60px] h-[65px] w-[190px] bg-purple-400 rounded-lg mr-[100px]">
-            <button className="px-[28px] py-[19px] text-[20px] font-semibold text-white ">
+          <div className="lg:m-[60px] lg:h-[65px] lg:w-[190px] h-[50px] w-[190px] bg-purple-400 rounded-lg lg:mr-[100px] lg:mt-[px] mt-[150px] lg:ml-[0px] ml-[-150px]">
+            <button className="lg:px-[28px] px-[40px] lg:py-[19px] py-[9px] text-[18px]  text-white ">
               Star Applying
             </button>
           </div>

@@ -28,9 +28,9 @@ const Viewdetails = () => {
   return (
     <div>
       <div>
-        <div className="flex">
+        <div className="lg:flex">
           <div>
-            <h1 className="w-[872px] mx-[100px] mt-[130px]">
+            <h1 className="lg:w-[872px] lg:mx-[100px] mt-[130px]">
               <span className="font-bold">Job Description:</span>Job
               Description: A UI/UX (User Interface/User Experience) designer is
               responsible for designing and creating engaging and effective
@@ -38,7 +38,7 @@ const Viewdetails = () => {
               designing the layout, visual design, and interactivity of the user
               interface.
             </h1>
-            <h1 className="w-[872px] mx-[100px] mt-[24px]">
+            <h1 className="lg:w-[872px] lg:mx-[100px] mt-[24px]">
               <span className="font-bold">Job Responsibility:</span>{" "}
               Collaborating with cross-functional teams: UI/UX designers often
               work closely with other teams, including product management,
@@ -48,12 +48,12 @@ const Viewdetails = () => {
               feedback from other team members.
             </h1>
             <div>
-              <h1 className="my-[24px] mx-[100px]">
+              <h1 className="my-[24px] lg:mx-[100px]">
                 <span className="font-bold">Educational Requirements:</span>
                 <br></br>
                 Bachelor degree to complete any reputational university.
               </h1>
-              <div className="my-[24px] mx-[100px]">
+              <div className="my-[24px] lg:mx-[100px]">
                 <span className="font-bold">Experiences:</span>
                 <br></br>
                 <h1>2-3 Years in this field.</h1>

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-black w-full h-[500px] grid grid-cols-5  px-[100px] py-[130px] ">
+      <div className="bg-black w-full  lg:h-[400px]  h-[1100px] grid lg:grid-cols-5  px-[100px] py-[130px] ">
         <div>
           <h1 className="text-white text-[30px] font-bold">CareerHub</h1>
           <p className="text-white font-thin my-[20px]">
@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
           <img className="my-[20px]" src="/public/Icons/Group 9969.png"></img>
         </div>
-        <div className="mx-[100px]">
+        <div className="lg:mx-[100px]">
           <h1 className="text-white font-semibold text-2xl">Company</h1>
           <li className="text-white list-none m-[10px] w-[100px]">About Us</li>
           <li className="text-white list-none m-[10px] w-[100px]">Work</li>
@@ -21,28 +21,36 @@ const Footer = () => {
           </li>
           <li className="text-white list-none m-[10px] w-[100px]">Careers</li>
         </div>
-        <div className="mx-[100px]">
-          <h1 className="text-white ">Product</h1>
-          <p className="text-white font-thin  m-[10px] w-[100px]">Prototype</p>
-          <p className="text-white font-thin  m-[10px] w-[100px]">
+        <div className="lg:mx-[100px]">
+          <h1 className="text-white font-bold text-2xl">Product</h1>
+          <p className="text-white font-thin  m-[10px] lg:w-[100px]">
+            Prototype
+          </p>
+          <p className="text-white font-thin  m-[10px] lg:w-[100px]">
             Plans & Pricing
           </p>
-          <p className="text-white font-thin  m-[10px] w-[100px]">Customers</p>
-          <p className="text-white font-thin  m-[10px] w-[100px]">
+          <p className="text-white font-thin  m-[10px] lg:w-[100px]">
+            Customers
+          </p>
+          <p className="text-white font-thin  m-[10px] lg:w-[100px]">
             Integrations
           </p>
         </div>
-        <div className="mx-[100px]">
-          <h1 className="text-white ">Support</h1>
-          <p className="text-white font-thin m-[10px] w-[100px]">Help Desk</p>
-          <p className="text-white font-thin m-[10px] w-[100px]">Sales</p>
-          <p className="text-white font-thin m-[10px] w-[140px]">
+        <div className="lg:mx-[100px]">
+          <h1 className="text-white font-bold text-2xl">Support</h1>
+          <p className="text-white font-thin m-[10px] lg:w-[100px]">
+            Help Desk
+          </p>
+          <p className="text-white font-thin m-[10px] lg:w-[100px]">Sales</p>
+          <p className="text-white font-thin m-[10px] lg:w-[140px]">
             Become a Partner
           </p>
-          <p className="text-white font-thin m-[10px] w-[100px]">Developers</p>
+          <p className="text-white font-thin m-[10px] lg:w-[100px]">
+            Developers
+          </p>
         </div>
-        <div className="mx-[100px]">
-          <h1 className="text-white  ">Contact</h1>
+        <div className="lg:mx-[100px]">
+          <h1 className="text-white font-bold text-2xl ">Contact</h1>
           <p className="text-white font-thin m-[10px] w-[130px]">
             524 Broadway , NYC
           </p>

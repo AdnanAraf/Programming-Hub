@@ -1,4 +1,4 @@
-import { getStoredCart } from "../Components/Utilities/fakedb";
+import { getStoredCart } from "../Utilities/fakedb";
 
 export const productsAndCartData = async () => {
   const productsData = await fetch("Showfeature.json");
