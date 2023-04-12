@@ -11,4 +11,4 @@
   -one can apply for the job by applying
 - another page will display one's applied job list
   6
-- live_link: https://stellar-stardust-08fb28.netlify.app
+- live_link: https://lucent-monstera-837f42.netlify.app/
