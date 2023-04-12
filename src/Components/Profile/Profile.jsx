@@ -24,7 +24,7 @@ const Profile = () => {
             </div>
           </div>
           <div>
-            <img src="/public/All Images/P3OLGJ1 copy 1.png"></img>
+            <img src="https://i.ibb.co/yRMSWCM/P3-OLGJ1-copy-1.png"></img>
           </div>
         </div>
       </div>
