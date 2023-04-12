@@ -11,6 +11,8 @@ import Profile from "./Components/Profile/Profile";
 import AppliedJob from "./Components/Appilied/AppliedJob";
 import { productsAndCartData } from "./Cart&Product/CartandProduct";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
+import Blog from "./Components/Blog/Blog";
+import Home1 from "./Home1/Home1";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,10 @@ const router = createBrowserRouter([
     element: <Home />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: "home",
+        element: <Home1 />,
+      },
       {
         path: "/",
         element: <Back />,
@@ -34,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "statistics",
         element: <Statistics></Statistics>,
+      },
+      {
+        path: "blog",
+        element: <Blog />,
       },
       {
         path: "item/:itemid",

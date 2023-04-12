@@ -11,9 +11,10 @@ const Navbar = () => {
           </h1>
 
           <div className="lg:flex lg:m-[50px]  my-[60px] lg:ml-[0px] ml-[-80px]  ">
-            {/* <Link className="list-none p-[20px]  cursor-pointer" to="/home">
+            <Link className="list-none lg:p-[20px]  cursor-pointer" to="/home">
               Home
-            </Link> */}
+            </Link>
+            <br></br>
             <Link
               className="list-none lg:p-[20px]  cursor-pointer"
               to="/statistics"
@@ -27,11 +28,12 @@ const Navbar = () => {
             >
               Applied Jobs
             </Link>
-            <li className="list-none lg:p-[20px]  cursor-pointer" href="#">
+            <br></br>
+            <Link className="list-none lg:p-[20px]  cursor-pointer" to="/blog">
               Blog
-            </li>
+            </Link>
           </div>
-          <div className="lg:m-[60px] lg:h-[65px] lg:w-[190px] h-[50px] w-[190px] bg-purple-400 rounded-lg lg:mr-[100px] lg:mt-[px] mt-[150px] lg:ml-[0px] ml-[-150px]">
+          <div className="lg:m-[60px] lg:h-[65px] lg:w-[190px] h-[50px] w-[190px] bg-purple-400 rounded-lg lg:mr-[100px] lg:mt-[px] mt-[160px] lg:ml-[0px] ml-[-150px]">
             <button className="lg:px-[28px] px-[40px] lg:py-[19px] py-[9px] text-[18px]  text-white ">
               Star Applying
             </button>
