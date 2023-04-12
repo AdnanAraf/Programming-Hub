@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import { addToDb } from "../Utilities/fakedb";
+import { addToDb } from "../../Utilities/fakedb";
+// import { addToDb } from "../../Utilities/fakedb";
 
 const Viewdetails = () => {
   const [identify, setidentify] = useState({});

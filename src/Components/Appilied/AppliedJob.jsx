@@ -1,6 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
-import { getStoredCart } from "../Utilities/fakedb";
+import { getStoredCart } from "../../Utilities/fakedb";
 import AppliedJobitem from "../Appliedjobitems/AppliedJobitem";
 
 const AppliedJob = () => {
