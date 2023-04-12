@@ -10,11 +10,13 @@ import Viewdetails from "./Components/ViewDetails/Viewdetails";
 import Profile from "./Components/Profile/Profile";
 import AppliedJob from "./Components/Appilied/AppliedJob";
 import { productsAndCartData } from "./Cart&Product/CartandProduct";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
