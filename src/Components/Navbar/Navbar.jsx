@@ -34,8 +34,8 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="lg:m-[60px] lg:h-[65px] lg:w-[190px] h-[50px] w-[190px] bg-purple-400 rounded-lg lg:mr-[100px] lg:mt-[px] mt-[160px] lg:ml-[0px] ml-[-150px]">
-            <button className="lg:px-[28px] px-[40px] lg:py-[19px] py-[9px] text-[18px]  text-white ">
-              Star Applying
+            <button className="lg:px-[28px] px-[35px] lg:py-[19px] py-[9px] text-[18px]  text-white ">
+              Start Applying
             </button>
           </div>
         </div>

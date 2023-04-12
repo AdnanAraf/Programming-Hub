@@ -8,7 +8,7 @@ import { Outlet } from "react-router-dom";
 
 const Home1 = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Profile />
       <Categoryitems />
       <FeaturedData />

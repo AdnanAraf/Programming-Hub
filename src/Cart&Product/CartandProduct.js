@@ -12,7 +12,6 @@ export const productsAndCartData = async () => {
   for (const id in savedCart) {
     // console.log(savedCart);
     const foundProduct = products.find((product) => product.id == id);
-    // console.log(foundProduct);
     if (foundProduct) {
       const quantity = savedCart[id];
       foundProduct.quantity = quantity;
