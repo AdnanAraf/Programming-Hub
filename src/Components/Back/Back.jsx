@@ -7,9 +7,9 @@ import FeaturedData from "../Featured/FeaturedData";
 const Back = () => {
   return (
     <div>
-      {/* <Profile />
+      <Profile />
       <Categoryitems />
-      <FeaturedData /> */}
+      <FeaturedData />
     </div>
   );
 };
