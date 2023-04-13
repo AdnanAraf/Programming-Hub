@@ -10,7 +10,10 @@ const Footer = () => {
             There are many variations of passages of Lorem Ipsum , but the
             majority have suffered alteration in some form.
           </p>
-          <img className="my-[20px]" src="/public/Icons/Group 9969.png"></img>
+          <img
+            className="my-[20px]"
+            src="https://i.ibb.co/Cs8hf97/Group-9969.png"
+          ></img>
         </div>
         <div className="lg:mx-[100px]">
           <h1 className="text-white font-semibold text-2xl">Company</h1>
