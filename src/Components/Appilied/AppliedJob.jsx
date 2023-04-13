@@ -28,7 +28,7 @@ const AppliedJob = () => {
 
   const handleFilterClick1 = () => {
     const remoteJobs1 = data1.filter(
-      (job) => job.jobtype1 === "Full Time" || job.jobtype2 == "Full Time"
+      (job) => job.jobtype1 === "Onsite" || job.jobtype2 == "Onsite"
     );
     setFilteredJobs1(remoteJobs1);
     setinitial(false);
