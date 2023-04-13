@@ -24,11 +24,11 @@ const data = [
   },
   {
     name: "Assignment-4",
-    marks: 59,
+    marks: 58,
   },
   {
     name: "Assignment-5",
-    marks: 57,
+    marks: 59,
   },
   {
     name: "Assignment-6",
@@ -36,10 +36,6 @@ const data = [
   },
   {
     name: "Assignment-7",
-    marks: 60,
-  },
-  {
-    name: "Assignment-8",
     marks: 60,
   },
 ];

@@ -29,6 +29,9 @@ const Viewdetails = () => {
   return (
     <div>
       <div>
+        <div className="bg-purple-50 h-[100px]">
+          <h1 className="text-center font-bold text-[32px]">Job Details</h1>
+        </div>
         <div className="lg:flex">
           <div>
             <h1 className="lg:w-[872px] lg:mx-[100px] mt-[130px]">
@@ -187,7 +190,7 @@ const Viewdetails = () => {
                 </h1>
               </div>
             </div>
-            <div className="w-[364px] h-[65px] bg-purple-700 rounded-lg px-[131px] py-[19px] mt-[10px]">
+            <div className="w-[364px] h-[65px] bg-purple-700 rounded-lg px-[131px] py-[19px] mt-[10px] my-[10px]">
               <button
                 onClick={() => HandleaddtoClick(identify)}
                 className="font-semibold text-white"

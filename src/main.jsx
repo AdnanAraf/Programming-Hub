@@ -13,6 +13,7 @@ import { productsAndCartData } from "./Cart&Product/CartandProduct";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Blog from "./Components/Blog/Blog";
 import Home1 from "./Home1/Home1";
+import RemoteItem from "./Components/Remote/RemoteItem";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
         path: "item/:itemid",
         element: <Viewdetails />,
         loader: ({ params }) => fetch(`/Showfeature.json`),
+      },
+      {
+        path: "item/:itemid",
+        element: <RemoteItem />,
       },
     ],
   },
