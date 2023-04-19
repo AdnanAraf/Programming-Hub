@@ -11,4 +11,4 @@
   -one can apply for the job by applying
 - another page will display one's applied job list
   6
-- live_link: https://stately-creponne-db0413.netlify.app/
+- live_link: https://celebrated-travesseiro-f55fe0.netlify.app/
